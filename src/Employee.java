@@ -6,25 +6,22 @@ public class Employee {
     private String designation;
 
 
-
-    public String getLastname() {
-        return lastname;
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
+
     public void setLastname(String lastname) {
         this.lastname = lastname;
     }
-    public int getAge() {
-        return age;
-    }
+
     public void setAge(int age) {
         this.age = age;
     }
-    public String getDesignation() {
-        return designation;
-    }
+
     public void setDesignation(String designation) {
         this.designation = designation;
     }
+
     public Employee(String firstname, String lastname, int age, String designation)
     {
         super();
